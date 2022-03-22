@@ -1,0 +1,12 @@
+{
+    "name": "前端面试",
+    "short_name": "前端面试",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "web前端面试题",
+    "icons": [{
+        "src": "logo.png",
+        "type": "image/webp"
+    }]
+}

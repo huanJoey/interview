@@ -1,0 +1,21 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "web面试题库",
+  "main": "index.js",
+  "scripts": {
+    "deploy-gh": "GH=1 npm run build && bash deploy-gh.sh",
+    "dev": "vuepress dev vuedoc",
+    "build": "vuepress build vuedoc"
+  },
+  "keywords": [
+    "web",
+    "interview"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.7.1",
+    "vuepress": "^1.7.1"
+  }
+}
