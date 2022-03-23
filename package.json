@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy-gh": "GH=1 npm run build && bash deploy-gh.sh",
-    "dev": "vuepress dev vuedoc",
+    "dev": "vuepress dev vuedoc --temp .temp",
     "build": "vuepress build vuedoc"
   },
   "keywords": [

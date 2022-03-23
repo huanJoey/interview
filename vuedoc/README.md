@@ -1,15 +1,4 @@
 
-<p align="center">
-<img width="300px"  style="max-width:300px; width:300px;" src="https://static.vue-js.com/21494410-8e11-11eb-ab90-d9ae814b240d.png"/>
-</p>
-<p align="center">
-  <a href="https://github.com/febobo/web-interview/stargazers"><img src="https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter.svg" alt="Statr"></a>
-<a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=vue" alt="vue"></a>
-<a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=es6" alt="es6"></a>
-  <a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=css" alt="css"></a>
-  <a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=javascript" alt="javascript"></a>
-</p>
-
 本仓库为语音打卡社群(JS每日一题)维护的前端面试题库，包含不限于Vue面试题，React面试题，JS面试题，HTTP面试题，工程化面试题，CSS面试题，算法面试题，大厂面试题，高频面试题
 
 同时我们提供更好阅读体验的在线版本，[点这里](https://vue3js.cn/interview)
@@ -45,17 +34,6 @@ PS: 仓库每周一更，想要及时收到推送，交流想法的同学，可�
 
 在过程中看清自已，在结果中遇见自己，我们都值得有更美好的未来
 
-再晒晒平常我们的样子
-
-<p>
-<img width="600px"  style="max-width:600px; width:600px;" src="https://user-images.githubusercontent.com/9276376/102876713-90c0f700-4480-11eb-880f-613f8f0f5042.png"/>
-</p>
-
-如果看到这里你也有兴趣，欢迎扫描下方二维码加入我们，持续成长
-
-<p>
-  <img  width="200px" style="max-width:200px; width:200px; height: 200px" src="https://static.vue-js.com/b4b71a30-443b-11eb-85f6-6fac77c0c9b3.png"/>
-</p>
 
 ## 🤡 内容
 

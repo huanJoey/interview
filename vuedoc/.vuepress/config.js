@@ -24,26 +24,48 @@ module.exports = {
   ],
   plugins: ['@vuepress/pwa'],
   themeConfig: {
-    // repo: "huanjoey/interview",
-    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
-    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-    repoLabel: "Github",
-
-    // 以下为可选的编辑链接选项
-
-    // 假如你的文档仓库和项目本身不在一个仓库：
-    // docsRepo: "huanjoey/interview",
-    // docsDir: "docs",
-    // docsBranch: "master",
-    // 默认是 false, 设置为 true 来启用
-    editLinks: false,
-    // 默认为 "Edit this page"
-    editLinkText: "帮助我们改善此页面！",
     // displayAllHeaders: true,
+    smoothScroll: true,
     sidebar: [
       {
+        title: "ES6-阮一峰",
+        collapsable: true,
+        children: [
+          "es6-ryf/intro",
+          "es6-ryf/let",
+          "es6-ryf/destructuring",
+          "es6-ryf/string",
+          "es6-ryf/regex",
+          "es6-ryf/number",
+          "es6-ryf/function",
+          "es6-ryf/array",
+          "es6-ryf/object",
+          "es6-ryf/object-methods",
+          "es6-ryf/operator",
+          "es6-ryf/symbol",
+          "es6-ryf/set-map",
+          "es6-ryf/proxy",
+          "es6-ryf/reflect",
+          "es6-ryf/promise",
+          "es6-ryf/iterator",
+          "es6-ryf/generator",
+          "es6-ryf/generator-async",
+          "es6-ryf/async",
+          "es6-ryf/class",
+          "es6-ryf/class-extends",
+          "es6-ryf/module",
+          "es6-ryf/module-loader",
+          "es6-ryf/async-iterator",
+          "es6-ryf/arraybuffer",
+          "es6-ryf/decorator",
+          "es6-ryf/style",
+          "es6-ryf/spec",
+          "es6-ryf/proposals"
+        ]
+      },
+      {
         title: "Vue系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children: [
           ["vue/vue", "说说你对vue的理解?"],
           ["vue/spa", "说说你对SPA（单页应用）的理解?"],
@@ -81,7 +103,7 @@ module.exports = {
       },
       {
         title: "Vue3系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children: [
           ["vue3/goal", "Vue3.0的设计目标是什么？做了哪些优化?"],
           ["vue3/performance", "Vue3.0 性能提升主要是通过哪几方面体现的？"],
@@ -93,7 +115,7 @@ module.exports = {
       },
       {
         title: "ES6系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children: [
           ["es6/var_let_const", "说说var、let、const之间的区别"],
           ["es6/array", "ES6中数组新增了哪些扩展?"],
@@ -109,7 +131,7 @@ module.exports = {
       },
       {
         title: "JavaScript系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children: [
           ["JavaScript/data_type", "说说JavaScript中的数据类型？存储上的差别？"],
           ["JavaScript/array_api", "数组的常用方法有哪些？"],
@@ -149,7 +171,7 @@ module.exports = {
       },
       {
         title: "CSS系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children: [
           ["css/box", "说说你对盒子模型的理解?"],
           ["css/selector", "css选择器有哪些？优先级？哪些属性可以继承？"],
@@ -175,7 +197,7 @@ module.exports = {
       },
       {
         title: "Webpack系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["webpack/webpack", "说说你对webpack的理解？解决了什么问题？"],
           ["webpack/build_process", "说说webpack的构建流程?"],
@@ -191,7 +213,7 @@ module.exports = {
       },
       {
         title: "HTTP系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["http/HTTP_HTTPS", "什么是HTTP? HTTP 和 HTTPS 的区别?"],
           ["http/HTTPS", "为什么说HTTPS比HTTP安全? HTTPS是如何保证安全的？"],
@@ -211,7 +233,7 @@ module.exports = {
       },
       {
         title: "NodeJS系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["NodeJS/nodejs", "说说你对 Node.js 的理解？优缺点？应用场景？"],
           ["NodeJS/global", "说说 Node.js 有哪些全局对象？"],
@@ -231,7 +253,7 @@ module.exports = {
       },
       {
         title: "React系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["React/React", "说说对React的理解？有哪些特性？"],
           ["React/Real DOM_Virtual DOM", "说说 Real DOM和 Virtual DOM 的区别？优缺点？"],
@@ -270,7 +292,7 @@ module.exports = {
       },
       {
         title: "版本控制系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["git/Version control", "说说你对版本管理的理解？常用的版本管理工具有哪些？"],
           ["git/Git", "说说你对Git的理解？"],
@@ -286,7 +308,7 @@ module.exports = {
       },
       {
         title: "操作系统系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["linux/linux", "说说你对操作系统的理解？核心概念有哪些？"],
           ["linux/thread_process", "说说什么是进程？什么是线程？区别？"],
@@ -299,7 +321,7 @@ module.exports = {
       },
       {
         title: "TypeScript 系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["typescript/typescript_javascript", "说说你对 TypeScript 的理解？与 JavaScript 的区别？"],
           ["typescript/data_type", "说说 typescript 的数据类型有哪些？"],
@@ -317,7 +339,7 @@ module.exports = {
       },
       {
         title: "算法与数据结构系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["algorithm/Algorithm", "说说你对算法的理解？应用场景？"],
           ["algorithm/time_space", "说说你对算法中时间复杂度，空间复杂度的理解？如何计算？"],
@@ -341,7 +363,7 @@ module.exports = {
       },
       {
         title: "小程序系列  ( 已完结..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["applet/applet", "说说你对微信小程序的理解？优缺点？"],
           ["applet/lifecycle", "说说微信小程序的生命周期函数有哪些？"],
@@ -355,7 +377,7 @@ module.exports = {
       },
       {
         title: "设计模式系列  ( 进行中..)",
-        collapsable: false,
+        collapsable: true,
         children:[
           ["design/design", "说说对设计模式的理解？常见的设计模式有哪些？"],
           ["design/Singleton Pattern", "说说你对单例模式的理解？如何实现？"],

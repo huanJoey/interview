@@ -7,6 +7,12 @@
     "description": "web前端面试题",
     "icons": [{
         "src": "logo.png",
+        "sizes": "32x32",
+        "type": "image/webp"
+    },
+    {
+        "src": "logo.png",
+        "sizes": "512x512",
         "type": "image/webp"
     }]
 }
